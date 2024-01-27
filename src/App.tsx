@@ -1,8 +1,7 @@
 import { ChangeEvent, FormEventHandler, useState } from "react";
 import "./App.css";
 import CardWeather from "./components/CardWeather";
-import { DataType, Temperature } from "./types";
-import TooggleTemperature from "./components/ToogleTemperature";
+import { DataType } from "./types";
 
 function App() {
   const INITIAL_DATA = {
