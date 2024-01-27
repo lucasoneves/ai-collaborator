@@ -31,7 +31,7 @@ function App() {
     setErrorFeedback(ERROR_FEEDBACK);
     try {
       const response = await fetch(
-        `http://api.weatherapi.com/v1/current.json?key=ccc6b26e33fa4b2db0c213608242401&q=${location}&aqi=no`
+        `https://api.weatherapi.com/v1/current.json?key=ccc6b26e33fa4b2db0c213608242401&q=${location}&aqi=no`
       );
       if (response.status === 200) {
         setData(await response.json());
